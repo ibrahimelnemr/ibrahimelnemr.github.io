@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Ibrahim",
   middleName: "",
   lastName: "El Nemr",
-  message: "Passionate about full-stack development & committed to contiuous learning.",
+  message: "Full-stack applications, AI-powered tools, and mobile apps.",
   icons: [
     {
       image: "fa-github",
@@ -51,15 +51,16 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/ibrahimelnemr.jpg"),
+  imageLink: "https://github.com/ibrahimelnemr.png?size=512",
   imageSize: 375,
   message:
-    "Hi, I’m Ibrahim. I’m a fresh graduate from the American University in Cairo with a passion for full-stack development and an enthusiasm for continuous learning. I have experience with a variety of frameworks including Node.js, React, Angular, and Flutter, as well as languages like Python and TypeScript. In my free time, I enjoy working on game development projects or contributing to open-source. I am currently seeking opportunities in full-stack development. Let's connect and discuss how I can bring value to your team.",
+    "Hi, I'm Ibrahim. I’m a software engineer passionate about building full-stack applications, AI-powered tools, and mobile apps.",
   resume: " ",
 };
 
 // PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
+// Show this many recently pushed projects, excluding forks, archives, and profile/website repositories.
+// Set reposLength to 0 to show only specificRepos.
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
@@ -126,7 +127,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for web or mobile full-stack engineering opportunities! Feel free to reach out at",
+    "Have a project in mind or an interest in what I’m building? Let’s connect.",
   email: "ibrahimelnemr@aucegypt.edu",
 };
 
