@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "Hi, I'm Ibrahim. I’m a software engineer passionate about building full-stack applications, AI-powered tools, and mobile apps.",
-  resume: " ",
+  resume: "",
 };
 
 // PROJECTS SECTION
