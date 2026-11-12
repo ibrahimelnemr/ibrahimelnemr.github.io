@@ -26,8 +26,8 @@ export const experience = [
     role: "Software Engineer",
     date: "Jan 2025 — Present",
     points: [
-      "Contribute to an enterprise AI application platform, building frontend and backend features with React, Java, and Python.",
-      "Work on LLM integration, tool execution, MCP, vector databases, and AI-enabled application development.",
+      "Contributed to an enterprise AI application platform, building frontend and backend features with React, Java, and Python.",
+      "Worked on LLM integration, tool execution, MCP, vector databases, and AI-enabled application development.",
       "Built a conversational analytics application for workforce utilization data and a React/Django knowledge-sharing platform.",
     ],
   },
@@ -60,33 +60,6 @@ export const projects = [
     stack: "Flutter · Local LLMs · Apple Intelligence",
     href: "https://apps.apple.com/us/app/beisa-learn/id6781236944",
     linkLabel: "App Store",
-  },
-  {
-    name: "Arabize",
-    type: "Web app",
-    description:
-      "An Arabic-to-Latin transliterator with optional diacritics. Runs entirely in the browser, with no backend required.",
-    stack: "Next.js · React · TypeScript",
-    href: "https://ibrahimelnemr.github.io/arabic-transliterator/transliterate/",
-    linkLabel: "Open app",
-  },
-  {
-    name: "PropertyFinder Database Query Tool",
-    type: "Data & web",
-    description:
-      "A tool for collecting, cleaning, and querying real estate data, with a SQL database and a Flask interface for exploring aggregated results.",
-    stack: "Python · Flask · MySQL · BeautifulSoup",
-    href: "https://github.com/ibrahimelnemr/property-finder-db",
-    linkLabel: "GitHub",
-  },
-  {
-    name: "Flutter Ecommerce Demo",
-    type: "Mobile app",
-    description:
-      "A full-stack ecommerce demo with a Flutter interface and a Node.js backend, including API testing and deployment to AWS Elastic Beanstalk.",
-    stack: "Flutter · Node.js · TypeScript · MongoDB",
-    href: "https://github.com/ibrahimelnemr/flutter-ecommerce-app-demo",
-    linkLabel: "GitHub",
   },
 ];
 
